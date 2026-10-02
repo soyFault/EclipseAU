@@ -1,0 +1,10 @@
+/Eclipse/bin/
+/Eclipse/obj/
+/Eclipse/obj/Debug/
+/Eclipse/obj/Eclipse.csproj.nuget.dgspec.json
+/Eclipse/obj/Eclipse.csproj.nuget.g.props
+/Eclipse/obj/Eclipse.csproj.nuget.g.targets
+/Eclipse/obj/project.assets.json
+/Eclipse/obj/project.nuget.cache
+/Eclipse/obj/project.packagespec.json
+/Eclipse/obj/rider.project.restore.info
