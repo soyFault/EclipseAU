@@ -20,4 +20,9 @@
                           PrivateAssets="all" ExcludeAssets="runtime" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Options\" />
+      <Folder Include="Roles\" />
+    </ItemGroup>
+
 </Project>
