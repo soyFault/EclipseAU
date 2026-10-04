@@ -31,7 +31,7 @@ public sealed class SheriffRole : CrewmateRole, IEclipseRole
         TasksCountForProgress = true,
         DefaultRoleCount = 1,
         DefaultChance = 0,
-        Icon = Assets.EclipseAssets.Shoot,
+        Icon = Assets.EclipseAssets.RoleIcon,
     };
 
     [HideFromIl2Cpp]

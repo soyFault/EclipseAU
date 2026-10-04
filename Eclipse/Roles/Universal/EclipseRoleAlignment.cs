@@ -26,13 +26,13 @@ public static class EclipseRoleAlignmentExtensions
     public static string GetAlignmentKey(this EclipseRoleAlignment alignment)
     {
         Validate(alignment);
-        return "Eclipse.Alignment" + alignment;
+        return "Eclipse.Alignment." + alignment;
     }
 
     public static string GetGroupKey(this EclipseRoleAlignment alignment)
     {
         Validate(alignment);
-        return "Eclipse.RoleGroup" + alignment;
+        return "Eclipse.RoleGroup." + alignment;
     }
 
     public static void Validate(EclipseRoleAlignment alignment)

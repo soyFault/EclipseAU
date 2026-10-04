@@ -28,13 +28,8 @@
 
     <ItemGroup>
         <EmbeddedResource Include="Resources/Locale/*.xml" />
-        <EmbeddedResource Include="Buttons/Assets/*.png" />
-        <EmbeddedResource Include="Roles/**/Assets/*.png" />
-        <EmbeddedResource Include="Modifiers/**/Assets/*.png" />
+        <EmbeddedResource Include="Resources/**/*.png" />
+
     </ItemGroup>
     
-    <ItemGroup>
-      <Compile Include="Roles\Universal\EclipseRoleMetadata.cs" />
-    </ItemGroup>
-
 </Project>

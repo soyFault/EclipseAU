@@ -1,1 +1,98 @@
- 
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="Eclipse.Role.Sheriff">Sheriff</string>
+    <string name="Eclipse.Role.Sheriff.IntroBlurb">Shoot the Impostors. Choose carefully!</string>
+    <string name="Eclipse.Role.Sheriff.MedDescription">A Crewmate who can shoot. A misfire applies the configured penalty and disables further shots.</string>
+    <string name="Eclipse.Role.Sheriff.TabDescription">Use Shoot against a nearby player. Impostors are valid targets; known neutral categories follow their options. A misfire can kill you, your target, both or nobody, and always disables shooting for the rest of the match. First-round use and reporting your victims are configurable.</string>
+    <string name="Eclipse.Role.Sheriff.WikiDescription">Win with the Crewmates and complete tasks. Your host configures cooldown, first-round use, victim reporting, valid neutral categories and misfire penalty. Surviving a misfire does not restore shooting.</string>
+    <string name="Eclipse.Sheriff.Button.Shoot">Shoot</string>
+    <string name="Eclipse.Sheriff.Options.Cooldown">Shot cooldown</string>
+    <string name="Eclipse.Sheriff.Options.BodyReport">Sheriff can report their victims</string>
+    <string name="Eclipse.Sheriff.Options.FirstRound">Allow shooting in first round</string>
+    <string name="Eclipse.Sheriff.Options.NeutralBenign">Can shoot benign neutrals</string>
+    <string name="Eclipse.Sheriff.Options.NeutralEvil">Can shoot evil neutrals</string>
+    <string name="Eclipse.Sheriff.Options.NeutralKilling">Can shoot killing neutrals</string>
+    <string name="Eclipse.Sheriff.Options.NeutralOutlier">Can shoot outlier neutrals</string>
+    <string name="Eclipse.Sheriff.Options.Misfire">Misfire kills</string>
+    <string name="Eclipse.Sheriff.Misfire.Sheriff">Sheriff</string>
+    <string name="Eclipse.Sheriff.Misfire.Target">Target</string>
+    <string name="Eclipse.Sheriff.Misfire.Both">Both</string>
+    <string name="Eclipse.Sheriff.Misfire.Nobody">Nobody</string>
+    <string name="Eclipse.Sheriff.Misfire.Feedback">Incorrect shot! Your shooting ability is disabled.</string>
+
+    <string name="Eclipse.Alignment.CrewmateInvestigative">Crewmate Investigative</string>
+    <string name="Eclipse.RoleGroup.CrewmateInvestigative">Crewmate Investigative roles</string>
+    <string name="Eclipse.Alignment.CrewmateKilling">Crewmate Killing</string>
+    <string name="Eclipse.RoleGroup.CrewmateKilling">Crewmate Killing roles</string>
+    <string name="Eclipse.Alignment.CrewmateProtective">Crewmate Protective</string>
+    <string name="Eclipse.RoleGroup.CrewmateProtective">Crewmate Protective roles</string>
+    <string name="Eclipse.Alignment.CrewmatePower">Crewmate Power</string>
+    <string name="Eclipse.RoleGroup.CrewmatePower">Crewmate Power roles</string>
+    <string name="Eclipse.Alignment.CrewmateSupport">Crewmate Support</string>
+    <string name="Eclipse.RoleGroup.CrewmateSupport">Crewmate Support roles</string>
+    <string name="Eclipse.Alignment.ImpostorConcealing">Impostor Concealing</string>
+    <string name="Eclipse.RoleGroup.ImpostorConcealing">Impostor Concealing roles</string>
+    <string name="Eclipse.Alignment.ImpostorKilling">Impostor Killing</string>
+    <string name="Eclipse.RoleGroup.ImpostorKilling">Impostor Killing roles</string>
+    <string name="Eclipse.Alignment.ImpostorPower">Impostor Power</string>
+    <string name="Eclipse.RoleGroup.ImpostorPower">Impostor Power roles</string>
+    <string name="Eclipse.Alignment.ImpostorSupport">Impostor Support</string>
+    <string name="Eclipse.RoleGroup.ImpostorSupport">Impostor Support roles</string>
+    <string name="Eclipse.Alignment.NeutralBenign">Neutral Benign</string>
+    <string name="Eclipse.RoleGroup.NeutralBenign">Neutral Benign roles</string>
+    <string name="Eclipse.Alignment.NeutralEvil">Neutral Evil</string>
+    <string name="Eclipse.RoleGroup.NeutralEvil">Neutral Evil roles</string>
+    <string name="Eclipse.Alignment.NeutralKilling">Neutral Killing</string>
+    <string name="Eclipse.RoleGroup.NeutralKilling">Neutral Killing roles</string>
+    <string name="Eclipse.Alignment.NeutralOutlier">Neutral Outlier</string>
+    <string name="Eclipse.RoleGroup.NeutralOutlier">Neutral Outlier roles</string>
+
+    <string name="Eclipse.Role.Jester">Jester</string>
+    <string name="Eclipse.Role.Jester.IntroBlurb">Get voted out to win!</string>
+    <string name="Eclipse.Role.Jester.MedDescription">A neutral who wins by being voted out. Being murdered does not count.</string>
+    <string name="Eclipse.Role.Jester.TabDescription">Get voted out to win. Your host chooses whether your victory ends the game, grants one haunt against a living voter until the next meeting, or simply lets the game continue. Poke is a local notification. Timed venting, impostor vision and Scatter are configurable. Fake tasks do not contribute to Crew progress.</string>
+    <string name="Eclipse.Role.Jester.WikiDescription">You win by being the actual ejected player. A tie, murder or Scatter death does not grant victory. You cannot sabotage or travel between vents. Scatter requires moving away from your three recent locations before its timer runs out.</string>
+    <string name="Eclipse.Role.NeutralGhost">Neutral ghost</string>
+    <string name="Eclipse.Role.NeutralGhost.IntroBlurb">Your original neutral objective determines your victory.</string>
+    <string name="Eclipse.Role.NeutralGhost.MedDescription">Keeps the original neutral outcome after death.</string>
+    <string name="Eclipse.Role.NeutralGhost.TabDescription">Your victory remains tied to your original neutral role. Observe other players using the ghost ability.</string>
+    <string name="Eclipse.Role.NeutralGhost.WikiDescription">Internal ghost role for Eclipse neutrals.</string>
+    <string name="Eclipse.Neutral.TaskHeader">Neutral: your role objective determines your victory.
+        Fake tasks:</string>
+    <string name="Eclipse.Neutral.DeadWon">You have already won with your neutral objective.</string>
+    <string name="Eclipse.Neutral.DeadLost">You died without completing your neutral objective.</string>
+    <string name="Eclipse.Jester.TaskHeader">Jester: get voted out to win.
+        Fake tasks:</string>
+    <string name="Eclipse.Jester.Options.CanButton">Can call emergency meetings</string>
+    <string name="Eclipse.Jester.Options.CanVent">Can use vents</string>
+    <string name="Eclipse.Jester.Options.VentCooldown">Vent cooldown</string>
+    <string name="Eclipse.Jester.Options.VentDuration">Vent duration (0 = unlimited)</string>
+    <string name="Eclipse.Jester.Options.CanPoke">Can poke players</string>
+    <string name="Eclipse.Jester.Options.PokeCooldown">Poke cooldown</string>
+    <string name="Eclipse.Jester.Options.ImpostorVision">Impostor vision</string>
+    <string name="Eclipse.Jester.Options.Scatter">Enable Scatter</string>
+    <string name="Eclipse.Jester.Options.ScatterTimer">Scatter time limit</string>
+    <string name="Eclipse.Jester.Options.AfterWin">After winning</string>
+    <string name="Eclipse.Jester.Options.AnnounceWin">Announce victory</string>
+    <string name="Eclipse.Jester.WinMode.EndsGame">End game</string>
+    <string name="Eclipse.Jester.WinMode.Haunts">Haunt</string>
+    <string name="Eclipse.Jester.WinMode.Nothing">Continue without haunt</string>
+    <string name="Eclipse.Jester.Button.Poke">Poke</string>
+    <string name="Eclipse.Jester.Button.Vent">Vent</string>
+    <string name="Eclipse.Jester.Button.Haunt">Haunt</string>
+    <string name="Eclipse.Jester.Notification.Poke">You poked [player]!</string>
+    <string name="Eclipse.Jester.Notification.WonOwner">You were voted out and won as the Jester!</string>
+    <string name="Eclipse.Jester.Notification.WonOthers">[player] was voted out and won as the Jester!</string>
+    <string name="Eclipse.Jester.Notification.HauntReady">You may haunt one living player who voted for you before the next meeting.</string>
+    <string name="Eclipse.Jester.Notification.HauntKill">The Jester haunted [victim] to death!</string>
+    <string name="Eclipse.Jester.Notification.AnonymousKill">[victim] died to a neutral victory ability.</string>
+    <string name="Eclipse.Jester.GameOver">Jester wins!</string>
+    <string name="Eclipse.Jester.Scatter.Name">Scatter</string>
+    <string name="Eclipse.Jester.Scatter.Timer">Scatter: [seconds]s</string>
+    <!-- Flash es un modificador, no un rol. <speed> se sustituye en C#. -->
+    <string name="Eclipse.Modifier.Flash">Flash</string>
+    <string name="Eclipse.Modifier.Flash.TabDescription">Move [speed]× faster than the configured player speed.</string>
+    <string name="Eclipse.Flash.Options.Amount">Number of Flash players</string>
+    <string name="Eclipse.Flash.Options.Chance">Flash assignment chance</string>
+    <string name="Eclipse.Flash.Options.Speed">Flash speed multiplier</string>
+</resources>

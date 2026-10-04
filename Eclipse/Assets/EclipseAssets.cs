@@ -8,9 +8,9 @@ public static class EclipseAssets
     private const string RoleIcons = "Eclipse.Resources.RoleIcons";
     private const string RoleButtonIcons = "Eclipse.Resources.Buttons";
     // Sheriff
-    public static readonly LoadableAsset<Sprite> Shoot = new LoadableResourceAsset(RoleButtonIcons + "SheriffShootButon.png");
+    public static readonly LoadableAsset<Sprite> Shoot = new LoadableResourceAsset(RoleButtonIcons + ".SheriffShootButton.png");
 
-    public static readonly LoadableAsset<Sprite> RoleIcon = new LoadableResourceAsset(RoleIcons + "Sheriff.png");
+    public static readonly LoadableAsset<Sprite> RoleIcon = new LoadableResourceAsset(RoleIcons + ".Sheriff.png");
     
     
 }
