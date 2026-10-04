@@ -5,8 +5,8 @@
         <AssemblyName>Eclipse</AssemblyName>
         <RootNamespace>Eclipse</RootNamespace>
         <Version>0.1.0</Version>
-        <Description>Eclipse: mod de Among Us con Mira API.</Description>
-        <Authors>soyFault</Authors>
+        <Description>Eclipse: Mi primer Mod de Among Us</Description>
+        <Authors>Fault</Authors>
     </PropertyGroup>
 
     <ItemGroup>
@@ -22,6 +22,19 @@
 
     <ItemGroup>
       <Folder Include="Options\" />
+      <Folder Include="Resources\Misc\" />
+      <Folder Include="Roles\Classic\Crewmate\Killing\Sheriff\Assets\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Resources/Locale/*.xml" />
+        <EmbeddedResource Include="Buttons/Assets/*.png" />
+        <EmbeddedResource Include="Roles/**/Assets/*.png" />
+        <EmbeddedResource Include="Modifiers/**/Assets/*.png" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Compile Include="Roles\Universal\EclipseRoleMetadata.cs" />
     </ItemGroup>
 
 </Project>

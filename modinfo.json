@@ -1,0 +1,16 @@
+{
+  "Name": "Eclipse",
+  "Description": "Mira API mod with everything I love and like from other mods",
+  "Tags": [
+    "mods"
+  ],
+  "Icon": "Eclipse.Resources.ModIcon.png",
+  "License": "GPLv3",
+  "Authors": [
+    "Fault"
+  ],
+  "Links": {
+    "Source": "https://github.com/soyFault/EclipseAU",
+    "Discord": "https://discord.gg/fFfPazRK2W"
+  }
+}
